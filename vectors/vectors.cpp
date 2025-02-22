@@ -4,9 +4,9 @@
 using namespace std;
 int main()
 {
-    string pito[3] = {"one", "two", "three"};
-    for (int i = 0; i < pito->length(); i++)
+    string numbers[3] = {"one", "two", "three"};
+    for (int i = 0; i < numbers->length(); i++)
     {
-        cout << pito[i] + " stone." << "\n";
+        cout << numbers[i] + " stone." << "\n";
     }
 }
