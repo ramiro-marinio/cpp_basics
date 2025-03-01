@@ -11,7 +11,7 @@ int main()
     cout << "Please, insert your name: ";
     string answer;
     cin >> answer;
-    cout << ((answer.length() <= 1) ? "Your name is " + answer : "You have not provided a valid name.");
+    cout << ((answer.length() >= 1) ? "Your name is " + answer : "You have not provided a valid name.");
     cout << "\n";
     return 0;
 }
